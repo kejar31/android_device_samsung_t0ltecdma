@@ -32,6 +32,31 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lpm.rc:root/lpm.rc \
     $(LOCAL_PATH)/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
 
+# Stweaks
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/res/STweaks.apk:root/res/STweaks.apk \
+    $(LOCAL_PATH)/res/uci.sh:root/res/uci.sh \
+    $(LOCAL_PATH)/res/customconfig/action.cache:root/res/customconfig/action.cache \
+    $(LOCAL_PATH)/res/customconfig/config.revision:root/res/customconfig/config.revision \
+    $(LOCAL_PATH)/res/customconfig/customconfig-helper:root/res/customconfig/customconfig-helper \
+    $(LOCAL_PATH)/res/customconfig/customconfig.xml.generate:root/res/customconfig/customconfig.xml.generate \
+    $(LOCAL_PATH)/res/customconfig/init.profile:root/res/customconfig/init.profile \
+    $(LOCAL_PATH)/res/customconfig/injection.profile:root/res/customconfig/injection.profile \
+    $(LOCAL_PATH)/res/customconfig/override.profile:root/res/customconfig/override.profile \
+    $(LOCAL_PATH)/res/customconfig/actions/controlswitch:root/res/customconfig/actions/controlswitch \
+    $(LOCAL_PATH)/res/customconfig/actions/cpugeneric:root/res/customconfig/actions/cpugeneric \
+    $(LOCAL_PATH)/res/customconfig/actions/cpuvolt:root/res/customconfig/actions/cpuvolt \
+    $(LOCAL_PATH)/res/customconfig/actions/eq-presets:root/res/customconfig/actions/eq-presets \
+    $(LOCAL_PATH)/res/customconfig/actions/generic:root/res/customconfig/actions/generic \
+    $(LOCAL_PATH)/res/customconfig/actions/generic01:root/res/customconfig/actions/generic01 \
+    $(LOCAL_PATH)/res/customconfig/actions/generictag:root/res/customconfig/actions/generictag \
+    $(LOCAL_PATH)/res/customconfig/actions/gpugeneric:root/res/customconfig/actions/gpugeneric \
+    $(LOCAL_PATH)/res/customconfig/actions/gputhresholds:root/res/customconfig/actions/gputhresholds \
+    $(LOCAL_PATH)/res/customconfig/actions/gpuvolt:root/res/customconfig/actions/gpuvolt \
+    $(LOCAL_PATH)/res/customconfig/actions/intvolt:root/res/customconfig/actions/intvolt \
+    $(LOCAL_PATH)/res/customconfig/actions/iosched:root/res/customconfig/actions/iosched \
+    $(LOCAL_PATH)/res/customconfig/actions/mifvolt:root/res/customconfig/actions/mifvolt
+
 # Camera FW
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/80cfw:system/etc/init.d/80cfw
